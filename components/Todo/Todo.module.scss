@@ -1,0 +1,450 @@
+.todoList{
+    display: inline-block;
+    .todolist_title{
+        padding-left: 6vw;
+        color: #000;
+        text-align: center;
+        font-family: Abel;
+        font-size: 181px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .todo_image1{
+        background-image: url("../../public/pexels-michael-block-3225529\ 1.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+        .image_title1{
+            color: #FFF;
+            padding-left: 4vw;
+            font-family: Abel;
+            font-size: 140px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .image_title2{
+            padding-left: 3vw;
+            color: #FFF;
+            font-family: Abel;
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .image_description{
+            padding-left: 40vw;
+            padding-right: 5vw;
+            color: #FFF;
+            text-align: right;
+            font-family: Abel;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 40px; /* 133.333% */
+        }
+        .image_arrowBtn{
+            display: flex;
+            justify-content: center;
+            padding-top: 6.875rem;
+            & > img{
+                margin-bottom: 31px;
+            }
+        }
+    }
+    .todo_image2{
+        background-image: url("../../public/pexels-cottonbro-studio-4325476.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-position: center;
+
+        .image_title1{
+            color: #FFF;
+            padding-left: 4vw;
+            font-family: Abel;
+            font-size: 140px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .image_title2{
+            padding-left: 3vw;
+            color: #FFF;
+            font-family: Abel;
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .image_description{
+            padding-left: 40vw;
+            padding-right: 5vw;
+            padding-top: 59px;
+            color: #FFF;
+            text-align: right;
+            font-family: Abel;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 40px; /* 133.333% */
+        }
+        .image_arrowBtn{
+            display: flex;
+            justify-content: center;
+            padding-top: 32px;
+            & > img{
+                margin-bottom: 31px;
+            }
+        }
+    }
+    .todo_image3{
+        background-image: url("../../public/Tezza-9397 1.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+
+        .image_title1{
+            color: #FFF;
+            padding-left: 4vw;
+            font-family: Abel;
+            font-size: 140px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .image_title2{
+            padding-left: 3vw;
+            color: #FFF;
+            font-family: Abel;
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .image_description{
+            padding-left: 40vw;
+            padding-right: 5vw;
+            padding-top: 59px;
+            color: #FFF;
+            text-align: right;
+            font-family: Abel;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 40px; /* 133.333% */
+        }
+        .image_arrowBtn{
+            display: flex;
+            justify-content: center;
+            padding-top: 32px;
+            & > img{
+                margin-bottom: 31px;
+            }
+        }
+    }
+    .banner{
+        padding-top: 98px;
+        padding-bottom: 98px;
+        text-align: center;
+        width: 100vw;
+        .contactUs{
+            color: #F3A242;
+            text-align: center;
+            font-family: Abel;
+            font-size: 43px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 40px; /* 93.023% */
+            text-decoration-line: underline;
+        }
+    }
+    .contactEmail{
+        
+        position: relative;
+        .containEmail{
+            background-color: #490266 !important;
+            margin-top: 59px;
+            width: 100%;
+            padding-top: 59px;
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+            .contactLogo{
+                margin: 0;
+                padding-left: 75px;
+                width: 40%;
+                color: #FFF;
+                font-family: Abel;
+                font-size: 52px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 50px; /* 96.154% */
+            }
+            .contactInput{
+                margin: 0;
+                width: 60%;
+                text-align: right;
+                padding-right: 170px;
+                .customInput{
+                    display: inline-block;
+                    position: relative;
+                    input {
+                        width: 524px;
+                        height: 87px;
+                        background-color: #490266;
+                        border-radius: 100px;
+                        border: 1px solid #FFF;
+                        color: white;
+                        padding: 0;
+                        padding-left: 110px;
+                        color: rgba(255, 255, 255, 0.30);
+                        font-family: Abel;
+                        font-size: 32px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 50px; /* 156.25% */
+
+                    }
+                    button{
+                        position: absolute;
+                        margin: 0;
+                        top: 50%;
+                        right: 0;
+                        margin-right: 0px; /* Same as input's padding-right */
+                        // border: none;
+                        border: 1px solid white;
+                        background-color:#490266 ;
+                        width: 244px;
+                        height: 87px;
+                        border-radius: 100px;
+                        transform: translateY(-50%);
+                        color: #FFF;
+                        text-align: center;
+                        font-family: Abel;
+                        font-size: 32px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 50px; /* 156.25% */
+                    }
+                }
+
+            }
+            
+        }
+        .footerBar{
+            background-color: #490266 !important;
+            padding-top: 60px;
+            padding-bottom: 25px;
+            display: flex;
+            width: 100%;
+            .footerBar1{
+                width: 20%;
+                text-align: left;
+                padding-left: 75px;
+                color: #FFF;
+                font-family: Abel;
+                font-size: 23px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 50px; /* 217.391% */
+            }
+            .footerBar2{
+                width: 60%;
+                text-align: center;
+                color: #FFF;
+                font-family: Abel;
+                font-size: 23px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 50px; /* 217.391% */
+            }
+            .footerBar3{
+                width: 20%;
+                text-align: right;
+                color: #FFF;
+                padding-right: 74px;
+                font-family: Abel;
+                font-size: 23px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 50px; /* 217.391% */
+            }
+        }
+        
+    }
+}
+
+@media only screen and (max-width: 1270px){
+    .todoList{
+        .todolist_title{
+            font-size: 150px;
+        }
+        .todo_image1{
+            .image_title1{
+
+                font-size: 110px;
+            }
+        }
+        .todo_image2{
+            .image_title1{
+
+                font-size: 110px;
+            }
+        }
+        .todo_image3{
+            .image_title1{
+
+                font-size: 110px;
+            }
+        }
+      
+    }
+}  
+@media only screen and (max-width: 1020px){
+    
+    .todoList{
+        
+        .contactEmail{
+            .containEmail{
+                flex-direction: column;
+                .contactLogo{
+                    position: relative;
+                    width: 100%;
+                    text-align: center;
+                    padding-left: 0;
+                }
+                .contactInput{
+                    width: 100%;
+                    text-align: center;
+                    padding-top: 20px;
+                }
+            }
+        }
+    }
+}  
+@media only screen and (max-width: 1110px){
+    .todoList{
+        .todo_image1{
+            .image_description{
+                padding-right: 14vw;
+            }
+        }
+    }
+    .todoList{
+        .todo_image2{
+            .image_description{
+                padding-right: 14vw;
+            }
+        }
+    }
+    .todoList{
+        .todo_image3{
+            .image_description{
+                padding-right: 14vw;
+            }
+        }
+        .contactEmail{
+            .footerBar{
+                .footerBar3{
+                    padding-right: 150px;
+                }
+            }
+        }
+    }
+}  
+@media only screen and (max-width: 1020px){
+    .todoList{
+        .todo_image1{
+            .image_description{
+                padding-right: 5vw;
+            }
+        }
+    }
+    .todoList{
+        .todo_image2{
+            .image_description{
+                padding-right: 5vw;
+            }
+        }
+    }
+    .todoList{
+        .todo_image3{
+            .image_description{
+                padding-right: 5vw;
+            }
+        }
+        .contactEmail{
+            .footerBar{
+                .footerBar3{
+                    padding-right: 74px;
+                }
+            }
+        }
+    }
+}   
+@media only screen and (max-width: 820px){
+    .todoList{
+        .todolist_title{
+            font-size: 110px;
+        }
+        .todo_image1{
+            .image_title1{
+
+                font-size: 80px;
+            }
+        }
+        .todo_image2{
+            .image_title1{
+
+                font-size: 80px;
+            }
+        }
+        .todo_image3{
+            .image_title1{
+
+                font-size: 80px;
+            }
+        }
+        .contactEmail{
+            .containEmail{
+                .contactLogo{
+                    font-size: 35px;
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+}  
+@media only screen and (max-width: 780px){
+    .todoList{
+        .todolist_title{
+            font-size: 110px;
+        }
+        .todo_image1{
+            .image_title1{
+
+                font-size: 80px;
+            }
+        }
+        .todo_image2{
+            .image_title1{
+
+                font-size: 80px;
+            }
+        }
+        .todo_image3{
+            .image_description{
+
+                font-size: 80px;
+            }
+        }
+        .contactEmail{
+            .containEmail{
+                .contactLogo{
+                    font-size: 35px;
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+}   

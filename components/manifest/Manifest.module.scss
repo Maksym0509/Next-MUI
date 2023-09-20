@@ -1,0 +1,266 @@
+.landingPage{
+    display: flex;
+    align-items: end;
+    height: calc(100vh - 56px);
+    background-color: #490266;
+    .mainContent{
+        display: flex;
+        flex-direction: row;
+        .letter{
+            padding-left: 55px;
+            color: #FFF;
+            text-align: center;
+            font-family: Abel;
+            font-size: 181px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .description{
+            padding-left: 15vw;
+            padding-right: 15vw;
+            padding-bottom: 20px;
+            align-items: center !important;
+            text-align: left;
+            color: #FFF;
+            font-family: Abel;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}
+
+.equipment{
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 5vw;
+    width: 88%;
+    .equipment_part1{
+        position: relative;
+        width: 100%;
+        height: 135px;
+        margin: 0;
+        padding: 0;
+        color: #000;
+        font-family: Abel;
+        font-size: 120px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .equipment_part2{
+        margin-top: 20px;
+        display: flex;
+        width: 100%;
+        .equipment_image{
+            margin-right: 5vw;
+            .equipment_image_part1{
+                display: flex;
+                width: 25vw;
+                height: 27vw;
+                background-color: #D9D9D9;
+            }
+            .equipment_image_part2{
+                width: 100%;
+                display: flex;
+                color: #000;
+                text-align: right;
+                font-family: Abel;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                .letterleft{
+                    margin-top: 20px;
+                    width: 50%;
+                    text-align: left;
+                }
+                .letterright{
+                    margin-top: 20px;
+                    width: 50%;
+                    text-align: right;
+                }
+            }           
+        }
+        .equipment_description{
+            display: flex;
+            span{
+                margin: auto;
+                height: 287px;
+                color: #000;
+                font-family: Abel;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+    }
+    
+}
+.Collaborators{
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding-left: 5vw;
+    width: 88%;
+    .Collaborators_title{
+        color: #000;
+        font-family: Abel;
+        font-size: 120px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .Collaborators_image{
+        background-color: #D9D9D9;
+        width: 88vw;
+        height: 30vw;
+    }
+    .Collaborators_letter{
+        color: #000;
+        font-family: Abel;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 206px;        
+    }
+}
+
+@media only screen and (max-width: 1220px){
+    .landingPage{
+        .mainContent{
+            flex-direction: column;
+            padding-top: 0px;
+            margin-bottom: 0px;
+        }
+    }
+    .landingPage{
+        .mainContent{
+            .description{
+                padding-top: 50px;
+                padding-right: 5vh;
+                padding-left: 5vh;
+                padding-bottom: 0px;
+            }
+        }
+    }
+    .equipment_part2{
+        display: block !important;
+        .equipment_image_part1{
+            width: 90vw !important;
+            height: 92vw !important;
+        }
+        .letterleft{
+            width: 45vw;
+        }
+        .letterright{
+            width: 50vw !important;
+            margin-right: -8vw;
+        }
+    }
+    .equipment_description{
+        span{
+            height: 100px !important;
+        }
+    }
+
+}
+@media only screen and (max-width: 1700px){
+    .landingPage{
+        .mainContent{
+            .description{
+                padding-top: 50px;
+                padding-right: 5vh;
+                padding-left: 5vh;
+                padding-bottom: 10px;
+            }
+        }
+    }
+    
+}
+@media only screen and (max-width: 1400px){
+    .landingPage{
+        .mainContent{
+            .letter{
+                font-size: 140px;
+                padding-top: 50px;
+            }
+        }
+    }
+    .landingPage{
+        .mainContent{
+            .description{
+                padding-bottom: 100px;
+            }
+        }
+    }
+    
+}
+@media only screen and (max-width: 750px){
+    .landingPage{
+        .mainContent{
+            .description{
+                padding-bottom: 100px;
+            }
+        }
+    }
+    .Collaborators{
+        margin-top: 50px;
+        .Collaborators_title{
+            font-size: 60px;
+        }
+    }
+    .equipment{
+        .equipment_part1{
+            font-size: 60px;
+        }
+    }
+}
+@media only screen and (max-width: 650px){
+    .landingPage{
+        .mainContent{
+            .description{
+                padding-bottom: 50px;
+            }
+        }
+    }
+    .landingPage{
+        .mainContent{
+            .letter{
+                font-size: 85px;
+                padding-top: 50px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .Collaborators{
+        margin-top: 70px;
+        .Collaborators_title{
+            font-size: 60px;
+        }
+    }
+    
+}
+@media only screen and (max-width: 500px){
+    .Collaborators{
+        margin-top: 100px;
+        .Collaborators_title{
+            font-size: 60px;
+        }
+    }
+    
+}
+@media only screen and (max-width: 450px){
+    .Collaborators{
+        margin-top: 150px;
+        .Collaborators_title{
+            font-size: 60px;
+        }
+    }
+    
+}
