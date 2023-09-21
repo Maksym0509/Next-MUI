@@ -1,0 +1,48 @@
+
+.imageCmp{
+    width: 100%;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    .imgtitle1{
+        padding-left: 2.6vw;
+        padding-top: 2.5vh;
+        color: #FFF;
+        text-align: left;
+        font-family: Abel;
+        font-size: 140px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .imgtitle2{
+        padding-left: 2.6vw;
+        padding-top: 4.6vh;
+        text-align: left;
+        color: #FFF;
+        font-family: Abel;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .imgDescription{
+        padding-top: 2.3vh;
+        text-align: right;
+        padding-right: 3.48vw;
+        color: #FFF;
+        font-family: Abel;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px; /* 133.333% */
+    }
+    .imgSVG{
+        padding-top: 11.08vh;
+        padding-bottom: 3.14vh;
+        text-align: center;
+    }
+}

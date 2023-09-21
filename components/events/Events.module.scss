@@ -1,0 +1,160 @@
+.eventList1{
+    background-image: url('../../public/pexels-brett-sayles-3733925\ 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    display:flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    .leftPart{
+        width: 50%;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        .eventLogo1{
+            padding-left: 2.815vw;
+            padding-top: 5vh;
+            color: #FFF;
+            font-family: Abel;
+            font-size: 181px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .eventLogo2{
+            padding-top: 0px;
+            padding-left: 2.815vw;
+            color: #FFF;
+            font-family: Abel;
+            font-size: 181px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+    .rightPart{
+        width: 50%;
+        text-align: right;
+        margin: 0;
+        padding: 0;
+        .date{
+            padding-top: 5.9vh;
+            padding-right: 1.92vw;
+            color: #FFF;
+            font-family: Abel;
+            font-size: 104px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .title1{
+            padding-top: 0;
+            padding-right: 4.06vw;
+            color: #FFF;
+            font-family: Abel;
+            font-size: 44px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .title2{
+            padding-top: 2.6vh;
+            padding-right: 4.06vw;
+            color: #FFF;
+            font-family: Abel;
+            font-size: 44px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .title3{
+            padding-right: 4.06vw;
+            color: #FFF;
+            font-family: Abel;
+            font-size: 44px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .title4{
+            padding-top: 2.6vh;
+            padding-right: 4.06vw;
+            color: #FFF;
+            font-family: Abel;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-decoration-line: underline;
+        }
+    }
+}
+.eventList2{
+    display: block;
+    margin: 0;
+    padding: 0;
+    .title{
+        padding-left: 2.86vw;
+        padding-top: 3.8vh;
+        color: #000;
+        font-family: Abel;
+        font-size: 90px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .list{
+        padding-left: 2.86vw;  
+        padding-top: 1.94vh;
+        
+        color: #AD00FF;
+        font-family: Abel;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+.eventList3{
+    margin-top: 6vh;
+    display: flex;
+    padding: 0;
+    margin-left: 2.86vw; 
+    margin-right: 2.86vw;
+    .left{
+        width: 33%;
+        padding-right: 5px;
+    }
+    .middle{
+        width: 34%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .right{
+        width: 33%;
+        padding-left: 5px;
+    }
+}
+.eventList4{
+    margin-top: 6vh;
+    margin-bottom: 65vh;
+    display: flex;
+    padding: 0;
+    margin-left: 2.86vw; 
+    margin-right: 2.86vw;
+    .left{
+        width: 33%;
+        padding-right: 5px;
+    }
+    .middle{
+        width: 34%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .right{
+        width: 33%;
+        padding-left: 5px;
+    }
+}
+

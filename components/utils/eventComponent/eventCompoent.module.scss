@@ -1,0 +1,45 @@
+.card{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    .cardBody{
+        margin: 0;
+        height: 16.9vw;
+        background-color: #B6B3B3;
+        text-align: right;
+        padding-top: 14px;
+        padding-right: 16px;
+        color: #FFF;
+        font-family: Abel;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .cardFooter{
+        display: flex;
+        .left{
+            width: 50%;
+            text-align: left;
+            padding-top: 21px;
+            color: #000;
+            font-family: Abel;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .right{
+            width: 50%;
+            text-align: right;
+            padding-top: 24px;
+            color: #000;
+            font-family: Abel;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+
+        }
+    }
+}

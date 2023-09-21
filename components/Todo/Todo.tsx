@@ -1,6 +1,7 @@
 'use client'
 import React from "react"
 import styles from "./Todo.module.scss"
+import ImageComponent from "../utils/imageComponent/ImageComponent"
 import Grid from '@mui/material/Unstable_Grid2'
 import { IconArrowBottom } from "../assets/icons"
 import Image from "next/image"
@@ -16,58 +17,30 @@ const todo: React.FC = () => {
                         </span>
                     </Grid>
                     <Grid xs={12} sx={{padding:"0px"}}>
-                        <div className={styles.todo_image1}>
-                            <div className={styles.image_title1}>  
-                                Percepción energética
-                            </div>
-                            <div className={styles.image_title2}>  
-                                Subtítulo
-                            </div>
-                            <div className={styles.image_description}>  
-                                dirección y horaRatem eatuscium quae. To corior ant quas dolupta solorecea 
-                                con nat uta ped que suntium aspellam illa natem am, enducia quo beria volorro il 
-                                earum quae pos a
-                            </div>
-                            <div className={styles.image_arrowBtn}>
-                                <Image src={IconArrowBottom} alt="" />
-                            </div>
-                        </div>
+                        <ImageComponent imageURL="url('pexels-michael-block-3225529\ 1.png')" 
+                            title1="Percepción energética"
+                            title2="Subtítulo"
+                            description="dirección y horaRatem eatuscium quae. To corior ant quas dolupta solorecea con nat uta ped que suntium aspellam illa natem am, enducia quo beria volorro il earum quae pos a"
+                            btnState={1}
+                        />
                     </Grid>
                     <Grid xs={12} sx={{padding:"0px"}}>
-                        <div className={styles.todo_image2}>
-                            <div className={styles.image_title1}>  
-                                Diseño Humano
-                            </div>
-                            <div className={styles.image_title2}>  
-                                Subtítulo
-                            </div>
-                            <div className={styles.image_description}>  
-                                dirección y horaRatem eatuscium quae. To corior ant quas dolupta solorecea con nat 
-                                uta ped que suntium aspellam illa natem am, enducia quo beria volorro il earum quae pos a
-                            </div>
-                            <div className={styles.image_arrowBtn}>
-                                <Image src={IconArrowBottom} alt="" />
-                            </div>
-                        </div>
+                        <ImageComponent imageURL="url('pexels-cottonbro-studio-4325476.png')" 
+                            title1="Diseño Humano"
+                            title2="Subtítulo"
+                            description="dirección y horaRatem eatuscium quae. To corior ant quas dolupta solorecea con nat uta ped que suntium aspellam illa natem am, enducia quo beria volorro il earum quae pos a"
+                            btnState={1}
+                        />
                     </Grid>
                     <Grid xs={12} 
                         sx={{padding:"0px"}}
                     >
-                        <div className={styles.todo_image3}>
-                            <div className={styles.image_title1}>  
-                                Constelaciones
-                            </div>
-                            <div className={styles.image_title2}>  
-                                Subtítulo
-                            </div>
-                            <div className={styles.image_description}>  
-                                dirección y horaRatem eatuscium quae. To corior ant quas dolupta solorecea con nat uta ped que 
-                                suntium aspellam illa natem am, enducia quo beria volorro il earum quae pos a
-                            </div>
-                            <div className={styles.image_arrowBtn}>
-                                <Image src={IconArrowBottom} alt="" />
-                            </div>
-                        </div>
+                       <ImageComponent imageURL="url('Tezza-9397 1.png')" 
+                            title1="Constelaciones"
+                            title2="Subtítulo"
+                            description="dirección y horaRatem eatuscium quae. To corior ant quas dolupta solorecea con nat uta ped que suntium aspellam illa natem am, enducia quo beria volorro il earum quae pos a"
+                            btnState={1}
+                        />
                     </Grid>
                     <Grid xs={12} 
                         sx={{padding:"0px"}}

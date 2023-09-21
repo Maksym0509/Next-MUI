@@ -1,0 +1,111 @@
+.event1List1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 3.8vh;
+    .title{
+        width: 50%;
+        text-align: left;
+        padding-left: 3.33vw;
+        padding-top: 5vh;
+        color: #000;
+        font-family: Abel;
+        font-size: 90px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .list{
+        width: 50%;
+        text-align: right;
+        padding-right: 4.01vw;
+        padding-top: 6.75vh;
+        color: rgba(173, 0, 255, 0.40);
+        font-family: Abel;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+.event1List2{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 36px;
+    .title{
+        .part1{
+            padding-left: 3.33vw;
+            padding-top: 4.9vh;
+            text-align: left;
+            color: #000;
+            font-family: Abel;
+            font-size: 200px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 170px; /* 85% */
+        }
+        .part2{
+            padding-left: 3.33vw;
+            padding-top: 2.9vh;
+            color: #261616;
+            font-family: Abel;
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+    }
+    .blank{
+        width: 41vw;
+        margin-right: 2.86vw;
+        height: 44vh;
+        background-color: #B6B3B3;
+        
+    }
+}
+
+.event1List3{
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 49px;
+    flex-direction: row;
+    .left{
+        width: 14%;
+        text-align: left;
+        margin-left: 3.33vw;
+        color: #000;
+        font-family: Abel;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .right{
+        width: 41vw;
+        margin-left: 45vw;
+        margin-right: 2.86vw;
+        justify-content: right;
+        color: #000;
+        font-family: Abel;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px; /* 116.667% */
+    }
+}
+.event1List4{
+
+    margin-left: 3.33vw;
+    margin-right: 2.86vw;
+    margin-bottom: 10px;
+    height: 33vw;
+    background-color: #B6B3B3;
+}
