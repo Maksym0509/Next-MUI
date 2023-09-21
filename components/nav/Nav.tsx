@@ -1,7 +1,10 @@
 import React from "react";
+import { useRouter } from "next/navigation";
 import styles from "./Nav.module.scss"
+import Link from "next/link";
 
 const Nav: React.FC = () => {
+
     return(
         <>
             <div className={styles.nav_list}>
@@ -13,11 +16,11 @@ const Nav: React.FC = () => {
                 <div className={styles.ul_list}>
                     <center>
                         <ul>
-                            <li> MANIFIESTO </li>
-                            <li> ¿QUÉ HACEMOS? </li>
-                            <li> EVENTOS </li>
-                            <li> EVENTOS </li>
-                            <li> CONTACTO </li>
+                            <Link href='/Home'> <li> MANIFIESTO </li></Link>
+                            <Link href='/Todo'><li> ¿QUÉ HACEMOS? </li></Link>
+                            <Link href='/Events'><li> EQUIPO </li></Link>
+                            <Link href='/Events2'><li> EVENTOS </li></Link>
+                            <Link href='/Contact'><li> CONTACTO </li></Link>
                         </ul>
                     </center>
                 </div>
