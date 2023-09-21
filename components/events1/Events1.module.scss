@@ -34,78 +34,154 @@
 .event1List2{
     display: flex;
     flex-direction: row;
+    width: 100%;
     padding: 0;
     margin: 0;
-    margin-bottom: 36px;
-    .title{
-        .part1{
-            padding-left: 3.33vw;
-            padding-top: 4.9vh;
-            text-align: left;
+    .left{
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        .title1{
+            padding-top: 98px;
+            padding-left: 64px;
             color: #000;
             font-family: Abel;
-            font-size: 200px;
+            font-size: 10.1vw;
             font-style: normal;
             font-weight: 400;
             line-height: 170px; /* 85% */
+            @media only screen and (max-width: 1400px){
+                font-size: 140px;
+            }
         }
-        .part2{
-            padding-left: 3.33vw;
-            padding-top: 2.9vh;
+        .title2{
+            padding-top: 40px;
+            padding-left: 64px;
             color: #261616;
             font-family: Abel;
             font-size: 38px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
+            
         }
-
-    }
-    .blank{
-        width: 41vw;
-        margin-right: 2.86vw;
-        height: 44vh;
-        background-color: #B6B3B3;
-        
-    }
-}
-
-.event1List3{
-    width: 100%;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 49px;
-    flex-direction: row;
-    .left{
-        width: 14%;
-        text-align: left;
-        margin-left: 3.33vw;
-        color: #000;
-        font-family: Abel;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
+        .title3{
+            width: 14.2vw;
+            padding-top: 36.09px;
+            padding-left: 64px;
+            color: #000;
+            font-family: Abel;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
     }
     .right{
-        width: 41vw;
-        margin-left: 45vw;
-        margin-right: 2.86vw;
-        justify-content: right;
-        color: #000;
-        font-family: Abel;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 21px; /* 116.667% */
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        .blank{
+            width: 90%;
+            margin-right: 5%;
+            height: 480px;
+            background-color: #D9D9D9;;
+        }
+        .description{
+            padding-top: 30px;
+            width: 90%;
+            margin-right: 5%;
+            text-align: left;
+            color: #000;
+            font-family: Abel;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 21px; /* 116.667% */
+        }
     }
 }
-.event1List4{
-
-    margin-left: 3.33vw;
-    margin-right: 2.86vw;
-    margin-bottom: 10px;
-    height: 33vw;
-    background-color: #B6B3B3;
+.event1List3{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 58px;
+    margin-right: 5%;
+    background-color: #B6B3B3;   
+    height: 600px; 
 }
+@media only screen and (max-width: 1100px){
+    .event1List1{
+        flex-direction: column;
+        flex-direction: column-reverse;
+        .title{
+            width: 100%;
+        }
+        .list{
+            width: 100%;
+            text-align: left;
+            padding-left: 3.33vw;
+        }
+    }
+    .event1List2{
+        flex-direction: column;
+        .left{
+            width: 100%;
+            padding-left:0;
+            .title1{
+                padding-top: 0px;
+            }
+        }
+        .right{
+            width: 100%;
+            margin-left:5% ;
+            margin-top: 30px;
+        }
+    }
+}
+@media only screen and (max-width: 1100px){
+    .event1List3{
+        margin-left: 5%;
+    }
+}
+@media only screen and (max-width: 550px){
+    .event1List1{
+        .title{
+            font-size: 43px;
+        }
+        .list{
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+    .event1List2{
+        .left{
+            .title1{
+                font-size: 95px;
+            }
+            .title2{
+                font-size: 33px;
+            }
+            .title3{
+                font-size: 15px;
+            }
+        }
+        .right{
+            .description{
+                font-size: 18px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 900px){
+    .event1List2{
+        .left{
+            .title3{
+                width: 187px;
+            }
+        }
+    }
+}
+
+
+
+

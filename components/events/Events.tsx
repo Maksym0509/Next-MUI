@@ -1,7 +1,9 @@
+'use client'
 import React from "react";
 import styles from './Events.module.scss';
 import Grid from '@mui/material/Unstable_Grid2';
 import EventCompoent from "../utils/eventComponent/eventComponent";
+import ContactComponent from "../utils/contactUs/contactComponent";
 
 const Events: React.FC = () => {
     return (
@@ -46,6 +48,9 @@ const Events: React.FC = () => {
                     <div className={styles.right}><EventCompoent /></div>
                 </div>
             </Grid>
+            <div className={styles.contact}>
+                <ContactComponent backColor="#AD00FF" />
+            </div>
            
         </>
     )

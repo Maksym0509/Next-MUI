@@ -1,6 +1,6 @@
 .landingPage{
     display: flex;
-    align-items: end;
+    align-items: flex-end;
     height: calc(100vh - 56px);
     background-color: #490266;
     .mainContent{
@@ -22,7 +22,7 @@
             padding-bottom: 20px;
             align-items: center !important;
             text-align: left;
-            color: #FFF;
+            color: white;
             font-family: Abel;
             font-size: 16px;
             font-style: normal;
@@ -129,6 +129,10 @@
         line-height: normal;
         margin-bottom: 206px;        
     }
+}
+
+.contact{
+    display: none;
 }
 
 @media only screen and (max-width: 1220px){
@@ -244,6 +248,9 @@
             font-size: 60px;
         }
     }
+    .contact{
+        display: block;
+    }
     
 }
 @media only screen and (max-width: 500px){
@@ -253,6 +260,7 @@
             font-size: 60px;
         }
     }
+    
     
 }
 @media only screen and (max-width: 450px){

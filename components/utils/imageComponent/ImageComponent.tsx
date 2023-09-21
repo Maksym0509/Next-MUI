@@ -4,6 +4,7 @@ import Image from "next/image"
 import { IconArrowBottom, IconArrowUp } from "../../assets/icons"
 
 export interface IProps{
+    extended: () => void;
     imageURL: string;
     title1: string;
     title2: string;
@@ -11,7 +12,7 @@ export interface IProps{
     btnState: number;
 }
 
-const ImageComponent: React.FC<IProps> = ({imageURL, title1, title2, description, btnState}) =>{
+const ImageComponent: React.FC<IProps> = ({extended, imageURL, title1, title2, description, btnState}) =>{
     return(
         <>
             <div className={styles.imageCmp} style={{backgroundImage: imageURL}}>
@@ -20,8 +21,8 @@ const ImageComponent: React.FC<IProps> = ({imageURL, title1, title2, description
                 <div className={styles.imgDescription}>{description}</div>
                 <div className={styles.imgSVG}>
                 {
-                    btnState == 1 ?  <Image src={IconArrowBottom} alt="" />
-                    :    <Image src={IconArrowUp} alt="" />
+                    btnState == 1 ?  <Image src={IconArrowBottom} className={styles.SVG} alt="" onClick={extended} />
+                    :    <Image src={IconArrowUp} alt="" onClick={extended} />
                 }
                 </div>
             </div>

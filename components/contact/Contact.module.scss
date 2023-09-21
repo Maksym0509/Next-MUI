@@ -27,7 +27,7 @@
             width: 728px;
         }
         .customBtn{
-            margin-top: 29px;
+            margin-top: 80px;
             width: 191px;
             height: 75px;
             border-radius: 100px;
@@ -43,7 +43,7 @@
         }
         .footer{
             padding-top: 110px;
-            padding-bottom: 59px;
+            padding-bottom: 150px;
             color: #FFF;
             font-family: Abel;
             font-size: 170px;
@@ -52,4 +52,34 @@
             line-height: 108px; /* 63.529% */
         }
     }
+}
+
+@media only screen and (max-width: 800px){
+    .loginForm{
+        .loginFormContent{
+            .lineEdit{
+                width: 600px;
+            }
+            .footer{
+                font-size: 90px;
+            }
+        }
+    }
+    
+}
+@media only screen and (max-width: 670px){
+    .loginForm{
+        .loginFormContent{
+            .title{
+                font-size: 63px;
+            }
+            .lineEdit{
+                width: 430px;
+            }
+            .footer{
+                font-size: 70px;
+            }
+        }
+    }
+    
 }

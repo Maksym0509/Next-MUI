@@ -2,7 +2,7 @@
     background-image: url('../../public/pexels-brett-sayles-3733925\ 1.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center;
     display:flex;
     flex-direction: row;
     margin: 0;
@@ -119,6 +119,7 @@
 .eventList3{
     margin-top: 6vh;
     display: flex;
+    flex-direction: row;
     padding: 0;
     margin-left: 2.86vw; 
     margin-right: 2.86vw;
@@ -140,6 +141,7 @@
     margin-top: 6vh;
     margin-bottom: 65vh;
     display: flex;
+    flex-direction: row;
     padding: 0;
     margin-left: 2.86vw; 
     margin-right: 2.86vw;
@@ -155,6 +157,111 @@
     .right{
         width: 33%;
         padding-left: 5px;
+    }
+}
+.contact{
+    display: none;
+}
+
+
+@media only screen and (max-width: 1000px){
+    .eventList1{
+        .leftPart{
+            .eventLogo1{
+                font-size: 151px;
+            }
+            .eventLogo2{
+                font-size: 151px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 850px){
+    .eventList1{
+        background-image: url('../../public/event2.png');
+        flex-direction: column;
+        flex-direction: column-reverse;
+
+        .leftPart{
+            padding-top: 300px;
+            .eventLogo1{
+                font-size: 121px;
+            }
+            .eventLogo2{
+                font-size: 121px;
+            }
+        }
+        .rightPart{
+            width: 50%;
+            text-align: left;
+            padding-left: 37px;
+            .date{
+                font-size: 70px;
+            }
+            .title1{
+                font-size: 39px;
+            }
+            .title2{
+                font-size: 39px;
+            }
+            .title3{
+                font-size: 39px;
+            }
+            .title4{
+                font-size: 39px;
+            }
+        }
+    }
+    .eventList2{
+        .title{
+            font-size: 60px;
+        }
+        .list{
+            
+            font-size: 15px;
+        }
+    }
+    .eventList3{
+        flex-direction: column;
+        .left{
+            width: 100%;
+            padding-right: 5px;
+            margin-bottom: 45px;
+        }
+        .middle{
+            width: 100%;
+            padding-left: 5px;
+            padding-right: 5px;
+            margin-bottom: 45px;
+        }
+        .right{
+            width: 100%;
+            padding-left: 5px;
+            margin-bottom: 45px;
+        }
+    }
+    .eventList4{
+        flex-direction: column;
+        .left{
+            width: 100%;
+            padding-right: 5px;
+            margin-bottom: 45px;
+        }
+        .middle{
+            width: 100%;
+            padding-left: 5px;
+            padding-right: 5px;
+            margin-bottom: 45px;
+        }
+        .right{
+            width: 100%;
+            padding-left: 5px;
+            margin-bottom: 45px;
+        }
+        margin-bottom: 10px;
+    }
+    .contact{
+        display: block;
     }
 }
 

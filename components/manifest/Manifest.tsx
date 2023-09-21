@@ -1,6 +1,8 @@
+'use client'
 import React from "react";
 import styles from "./Manifest.module.scss"
 import Grid from '@mui/material/Unstable_Grid2';
+import ContactComponent from "../utils/contactUs/contactComponent";
 
 const Manifest: React.FC = () => {
     return(
@@ -79,6 +81,9 @@ const Manifest: React.FC = () => {
                         </div>
                     </Grid>
                 </Grid>
+            </div>
+            <div className={styles.contact}>
+                <ContactComponent backColor="#490266" />
             </div>
         </>
     )

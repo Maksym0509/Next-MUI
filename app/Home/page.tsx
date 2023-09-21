@@ -1,3 +1,5 @@
+'use client'
+
 import { Manifest } from "@/components/manifest";
 const Page = () => {
     return (

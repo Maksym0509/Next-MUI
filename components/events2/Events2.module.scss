@@ -43,3 +43,30 @@
     }
 
 }
+@media only screen and (max-width: 800px){
+    .signupForm{
+        width: 600px !important;
+        .textInput{
+            width: 598px;
+        }
+    }
+    
+}
+@media only screen and (max-width: 650px){
+    .signupForm{
+        width: 450px !important;
+        .textInput{
+            width: 440px;
+        }
+        .title{
+            font-size: 70px;
+        }
+        .description{
+            font-size: 22px;
+        }
+        .button{
+            font-size: 38px;
+        }
+    }
+    
+}
