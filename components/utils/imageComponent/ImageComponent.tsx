@@ -5,15 +5,16 @@ import Image from "next/image"
 import { IconArrowBottom, IconArrowUp } from "../../assets/icons"
 
 export interface IProps{
-    extended: () => void;
+    imageCollapse: (index: number) => void;
+    index: number;
     imageURL: string;
     title1: string;
     title2: string;
     description: string;
-    btnState: number;
+    btnState: boolean[];
 }
 
-const ImageComponent: React.FC<IProps> = ({extended, imageURL, title1, title2, description, btnState}) =>{
+const ImageComponent: React.FC<IProps> = ({imageCollapse ,index, imageURL, title1, title2, description, btnState}) =>{
     return(
         <>
             <div className={styles.imageCmp} style={{backgroundImage: imageURL}}>
@@ -22,8 +23,8 @@ const ImageComponent: React.FC<IProps> = ({extended, imageURL, title1, title2, d
                 <div className={styles.imgDescription}>{description}</div>
                 <div className={styles.imgSVG}>
                 {
-                    btnState == 1 ?  <Image src={IconArrowBottom} className={styles.SVG} alt="" onClick={extended} />
-                    :    <Image src={IconArrowUp} alt="" onClick={extended} />
+                    btnState[index] === true ?  <Image src={IconArrowBottom} className={styles.SVG} alt="" onClick={() =>imageCollapse(index)} />
+                    :    <Image src={IconArrowUp} alt="" onClick={() =>imageCollapse(index)} />
                 }
                 </div>
             </div>
