@@ -1,0 +1,199 @@
+.navCmp{
+    .top{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        align-items: center;
+        border-bottom: 1px solid black;
+        .topMenu{
+            width: 25%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            .line1{
+                width: 30px;
+                height: 1px;
+                margin-bottom: 7px;     
+            }
+            .line2{
+                width: 30px;
+                height: 1px;
+                margin-bottom: 7px;
+            }
+            .line3{
+                width: 30px;
+                height: 1px;
+            }
+        }
+        .topMenu:hover{
+            cursor: pointer;
+        }
+        .topLogo{
+            width: 50%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            color: #F00;
+            text-align: center;
+            font-family: Inter;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .topCart{
+            width: 25%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    }
+    .menubar{
+        // display: none;
+        background-color: white;
+        z-index: 1;
+        position: absolute;
+        width: 100%;
+        height: 855px;
+        color: #000;
+        text-align: left;
+        font-family: Abel;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+        .menu1{
+            width: 100%;
+            border-bottom: 1px solid black;
+            padding-left: 23px;
+            padding-top: 29px;
+            padding-bottom: 29px;
+        } .menu1:hover{cursor: pointer;background-color: rgb(188, 185, 185);}
+        .menu2{
+            width: 100%;
+            border-bottom: 1px solid black;
+            padding-left: 23px;
+            padding-top: 29px;
+            padding-bottom: 29px;
+            .items{
+                .item1{
+                    padding-left: 31px;
+                    padding-top: 11px;
+                    color: rgba(0, 0, 0, 0.40);
+                    font-family: Abel;
+                    font-size: 21px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+                .item2{
+                    padding-left: 31px;
+                    padding-top: 2px;
+                    color: rgba(0, 0, 0, 0.40);
+                    font-family: Abel;
+                    font-size: 21px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    
+                }
+                .item3{
+                    padding-left: 31px;
+                    padding-top: 2px;
+                    color: rgba(0, 0, 0, 0.40);
+                    font-family: Abel;
+                    font-size: 21px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    
+                }
+                .item4{
+                    padding-left: 31px;
+                    padding-top: 2px;
+                    color: rgba(0, 0, 0, 0.40);
+                    font-family: Abel;
+                    font-size: 21px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    
+                }
+                .item5{
+                    padding-left: 31px;
+                    padding-top: 2px;
+                    color: rgba(0, 0, 0, 0.40);
+                    font-family: Abel;
+                    font-size: 21px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    
+                }
+            }
+            
+        }.menu2:hover{cursor: pointer; background-color: rgb(188, 185, 185);}
+        .menu3{
+            width: 100%;
+            border-bottom: 1px solid black;
+            padding-left: 23px;
+            padding-top: 29px;
+            padding-bottom: 29px;
+        }.menu3:hover{cursor: pointer; background-color: rgb(188, 185, 185);}
+        .menu4{
+            width: 100%;
+            border-bottom: 1px solid black;
+            padding-left: 23px;
+            padding-top: 29px;
+            padding-bottom: 29px;
+            .items{
+                .item1{
+                    padding-left: 31px;
+                    padding-top: 11px;
+                    color: rgba(0, 0, 0, 0.40);
+                    font-family: Abel;
+                    font-size: 21px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+                .item2{
+                    padding-left: 31px;
+                    padding-top: 2px;
+                    color: rgba(0, 0, 0, 0.40);
+                    font-family: Abel;
+                    font-size: 21px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+                .item3{
+                    padding-left: 31px;
+                    padding-top: 2px;
+                    color: rgba(0, 0, 0, 0.40);
+                    font-family: Abel;
+                    font-size: 21px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+        }.menu4:hover{cursor: pointer;background-color: rgb(188, 185, 185);}
+        .menu5{
+            width: 100%;
+            border-bottom: 1px solid black;
+            padding-left: 23px;
+            padding-top: 29px;
+            padding-bottom: 29px;
+        }.menu5:hover{cursor: pointer; background-color: rgb(188, 185, 185);}
+        .menu6{
+            width: 100%;
+            z-index: 2;
+            position: absolute;
+            bottom: 29px;
+            padding-left: 23px;
+            padding-bottom: 29px;
+            padding-top: 29px;
+        }.menu6:hover{cursor: pointer;background-color: rgb(188, 185, 185);}
+    }
+}
