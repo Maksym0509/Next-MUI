@@ -29,6 +29,10 @@ const NavComponent: React.FC<IProps> = ({backColor}) =>{
         router.push("/Home")
         setShow(!show);
     }
+    const gotoManifest = () => {
+        router.push("/Manifest")
+        setShow(!show);
+    }
     const gotoTodo = () => {
         router.push("/Todo");
         setShow(!show);
@@ -80,7 +84,10 @@ const NavComponent: React.FC<IProps> = ({backColor}) =>{
                 {show && 
                 <div className={styles.menubar}>
                     <div className={styles.menu1} onClick={gotoHome} >
-                        MANIFIESTO
+                        Home
+                    </div>
+                    <div className={styles.menu3} onClick={gotoManifest}>
+                        Manifest
                     </div>
                     <div className={styles.menu2} >
                         <span onClick={showTodoList}>¿QUÉ HACEMOS?</span>

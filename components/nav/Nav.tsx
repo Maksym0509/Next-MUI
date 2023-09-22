@@ -17,6 +17,9 @@ const Nav: React.FC = () => {
     const gotoHome = () => {
         router.push("/Home")
     }
+    const gotoManifest = () => {
+        router.push("/Manifest")
+    }
     const gotoTodo = () => {
         router.push("/Todo");
     }
@@ -58,7 +61,8 @@ const Nav: React.FC = () => {
                 <div className={styles.ul_list}>
                     <center>
                         <ul>
-                            <li onClick={gotoHome} style={isHome ? {color:"#490266"} : {color:"black"}}> MANIFIESTO </li>
+                            <li onClick={gotoHome} style={isHome ? {color:"#490266"} : {color:"black"}}> Home </li>
+                            <li onClick={gotoManifest} style={isHome ? {color:"#490266"} : {color:"black"}}> MANIFIESTO </li>
                             <li onClick={gotoTodo} style={isTodo ? {color:"#F3A242"} : {color:"black"}}> ¿QUÉ HACEMOS? </li>
                             <li onClick={gotoEvents} style={isEvents ? {color:"#490266"} : {color:"black"}}> EQUIPO </li>
                             <li onClick={gotoEvents2} style={isEvents1 ? {color:"#490266"} : {color:"black"}}> EVENTOS </li>
