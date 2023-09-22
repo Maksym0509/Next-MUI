@@ -27,21 +27,28 @@ const NavComponent: React.FC<IProps> = ({backColor}) =>{
     }
     const gotoHome = () => {
         router.push("/Home")
+        setShow(!show);
     }
     const gotoTodo = () => {
         router.push("/Todo");
+        setShow(!show);
+        setShowTodo(!showTodo);
     }
 
     const gotoEvents = () => {
         router.push('/Events');
+        setShow(!show);
     }
 
     const gotoEvents2 = () => {
         router.push('/Events2');
+        setShow(!show);
+        setShowEvent(!showEvent);
     }
 
     const gotoContact = () => {
         router.push('/Contact');
+        setShow(!show);
     }
 
 

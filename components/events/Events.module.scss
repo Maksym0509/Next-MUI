@@ -176,6 +176,21 @@
         }
     }
 }
+
+@media only screen and (max-width: 440px){
+    .eventList1{
+        .leftPart{
+            padding-left: 20px;
+            .eventLogo1{
+                font-size: 82px !important;
+            }
+            .eventLogo2{
+                font-size: 82px !important;
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 850px){
     .eventList1{
         background-image: url('../../public/event2.png');

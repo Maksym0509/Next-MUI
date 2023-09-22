@@ -65,8 +65,29 @@
             font-size: 22px;
         }
         .button{
+            text-align: center;
+            padding-top: 30px;
             font-size: 38px;
         }
     }
     
 }
+@media only screen and (max-width: 470px){
+    .signupForm{
+        width: 360px !important;
+        .textInput{
+            width: 355px;
+        }
+        .title{
+            font-size: 67px;
+        }
+        .description{
+            font-size: 22px;
+        }
+        .button{
+            padding-top: 30px;
+            text-align: center;
+            font-size: 38px;
+        }
+    }
+ }

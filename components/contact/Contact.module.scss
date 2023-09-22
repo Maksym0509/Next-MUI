@@ -71,13 +71,45 @@
     .loginForm{
         .loginFormContent{
             .title{
-                font-size: 63px;
+                font-size: 70px;
+            }
+            .lineEdit{
+                width: 500px;
+            }
+            .footer{
+                font-size: 77px;
+            }
+        }
+    }
+    
+}
+@media only screen and (max-width: 530px){
+    .loginForm{
+        .loginFormContent{
+            .title{
+                font-size: 65px;
             }
             .lineEdit{
                 width: 430px;
             }
             .footer{
                 font-size: 70px;
+            }
+        }
+    }
+    
+}
+@media only screen and (max-width: 440px){
+    .loginForm{
+        .loginFormContent{
+            .title{
+                font-size: 60px;
+            }
+            .lineEdit{
+                width: 350px;
+            }
+            .footer{
+                font-size: 65px;
             }
         }
     }

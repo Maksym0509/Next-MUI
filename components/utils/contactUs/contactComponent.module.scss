@@ -118,7 +118,7 @@
                 padding-left: 0;
             }
             .contactInput{
-                width: 100%;
+                margin:auto;
                 text-align: center;
                 padding-top: 20px;
             }
@@ -314,3 +314,26 @@
     }
 } 
 
+@media only screen and (max-width: 430px){
+    .contactEmail{
+        .containEmail{
+            .contactLogo{
+                font-size: 22px;
+                margin-left: 0px;
+            }
+            .contactInput{
+                .customInput{
+                    display: inline-block;
+                    position: relative;
+                    input {
+                        border-radius: 80px;
+                        padding-left: 10px;
+
+                    }
+                   
+                }
+
+            }
+        }
+    }
+}

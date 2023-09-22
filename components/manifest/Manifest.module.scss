@@ -3,6 +3,9 @@
     align-items: flex-end;
     height: calc(100vh - 56px);
     background-color: #490266;
+    @media only screen and (max-width: 430px){
+        height: 1300px;
+    }
     .mainContent{
         display: flex;
         flex-direction: row;
@@ -15,6 +18,10 @@
             font-style: normal;
             font-weight: 400;
             line-height: normal;
+            @media only screen and (max-width: 430px){
+                font-size: 82px;
+                padding-left: 10px;
+            }
         }
         .description{
             padding-left: 15vw;
@@ -264,6 +271,9 @@
     
 }
 @media only screen and (max-width: 450px){
+    .landingPage{
+        height: 1000px;
+    }
     .Collaborators{
         margin-top: 150px;
         .Collaborators_title{
@@ -272,3 +282,10 @@
     }
     
 }
+
+@media only screen and (max-width: 430px){
+    .landingPage{
+        height: 1300px;
+    }
+}
+

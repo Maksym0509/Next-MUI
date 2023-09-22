@@ -24,7 +24,7 @@ const Contact: React.FC = () => {
                                         borderColor: "white", // Change the width as needed
                                         "& .MuiOutlinedInput-root": {
                                              borderColor: "white", // Change the border color
-                                             borderRadius: "20px", // Change the border radius
+                                             borderRadius: "25px", // Change the border radius
                                         "&:hover fieldset": {
                                             borderColor: "white", // Change the hover border color
                                         },
@@ -77,7 +77,7 @@ const Contact: React.FC = () => {
                                         borderColor: "white", // Change the width as needed
                                         "& .MuiOutlinedInput-root": {
                                              borderColor: "white", // Change the border color
-                                             borderRadius: "20px", // Change the border radius
+                                             borderRadius: "25px", // Change the border radius
                                         "&:hover fieldset": {
                                             borderColor: "white", // Change the hover border color
                                         },
@@ -132,7 +132,7 @@ const Contact: React.FC = () => {
                                         borderColor: "white", // Change the width as needed
                                         "& .MuiOutlinedInput-root": {
                                              borderColor: "white", // Change the border color
-                                             borderRadius: "35px", // Change the border radius
+                                             borderRadius: "40px", // Change the border radius
                                         "&:hover fieldset": {
                                             borderColor: "white", // Change the hover border color
                                         },

@@ -68,7 +68,7 @@
             padding-left: 23px;
             padding-top: 29px;
             padding-bottom: 29px;
-        } .menu1:hover{cursor: pointer;background-color: rgb(188, 185, 185);}
+        } .menu1:hover{cursor: pointer;}
         .menu2{
             width: 100%;
             border-bottom: 1px solid black;
@@ -132,14 +132,14 @@
                 }
             }
             
-        }.menu2:hover{cursor: pointer; background-color: rgb(188, 185, 185);}
+        }.menu2:hover{cursor: pointer; }
         .menu3{
             width: 100%;
             border-bottom: 1px solid black;
             padding-left: 23px;
             padding-top: 29px;
             padding-bottom: 29px;
-        }.menu3:hover{cursor: pointer; background-color: rgb(188, 185, 185);}
+        }.menu3:hover{cursor: pointer; }
         .menu4{
             width: 100%;
             border-bottom: 1px solid black;
@@ -178,14 +178,14 @@
                     line-height: normal;
                 }
             }
-        }.menu4:hover{cursor: pointer;background-color: rgb(188, 185, 185);}
+        }.menu4:hover{cursor: pointer;}
         .menu5{
             width: 100%;
             border-bottom: 1px solid black;
             padding-left: 23px;
             padding-top: 29px;
             padding-bottom: 29px;
-        }.menu5:hover{cursor: pointer; background-color: rgb(188, 185, 185);}
+        }.menu5:hover{cursor: pointer;}
         .menu6{
             width: 100%;
             z-index: 2;
@@ -194,6 +194,6 @@
             padding-left: 23px;
             padding-bottom: 29px;
             padding-top: 29px;
-        }.menu6:hover{cursor: pointer;background-color: rgb(188, 185, 185);}
+        }.menu6:hover{cursor: pointer;}
     }
 }
