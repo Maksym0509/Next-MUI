@@ -5,7 +5,7 @@ import ImageComponent from "../utils/imageComponent/ImageComponent"
 import Grid from '@mui/material/Unstable_Grid2'
 import ContactComponent from "../utils/contactUs/contactComponent"
 
-const todo: React.FC = () => {
+const Todo: React.FC = () => {
     
     const [state, setState] = useState<number>(1);
     const extendedRef = useRef(null);
@@ -92,4 +92,4 @@ const todo: React.FC = () => {
     )
 }
 
-export default todo;
+export default Todo;
