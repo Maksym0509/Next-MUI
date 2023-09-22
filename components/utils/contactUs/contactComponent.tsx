@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import styles from './contactComponent.module.scss'
 import Grid from '@mui/material/Unstable_Grid2'
