@@ -22,7 +22,7 @@ const Events2: React.FC = () => {
                                 sx={{
                                     width: "100%",
                                     '& .MuiInputBase-root': {
-                                        height: '50px', // Adjust this value to your desired height
+                                        height: '50px', 
                                     },
                                     '& .MuiInput-underline:before': {
                                         borderColor: "#AD00FF",
@@ -38,7 +38,7 @@ const Events2: React.FC = () => {
                                         fontSize: "29px",
                                         fontStyle: "normal",
                                         fontWeight: "400",
-                                        lineHeight: "38px", /* 131.034% */
+                                        lineHeight: "38px", 
                                     },
                                     '& .MuiInputLabel-root': {
                                         paddingLeft: "10px",
@@ -47,11 +47,11 @@ const Events2: React.FC = () => {
                                         fontSize: "29px",
                                         fontStyle: "normal",
                                         fontWeight: "400",
-                                        lineHeight: "38px", /* 131.034% */
+                                        lineHeight: "38px", 
                                     },
                                     '& .MuiInputBase-input': {
-                                        color: 'purple', // Change this to your desired font color
-                                        fontSize: '30px', // Change this to your desired font size
+                                        color: 'purple', 
+                                        fontSize: '30px', 
                                     },
                                 }}
                                 label="Nombre"
@@ -64,7 +64,7 @@ const Events2: React.FC = () => {
                                 sx={{
                                     width: "100%",
                                     '& .MuiInputBase-root': {
-                                        height: '50px', // Adjust this value to your desired height
+                                        height: '50px', 
                                     },
                                     '& .MuiInput-underline:before': {
                                         borderColor: "#AD00FF",
@@ -80,7 +80,7 @@ const Events2: React.FC = () => {
                                         fontSize: "29px",
                                         fontStyle: "normal",
                                         fontWeight: "400",
-                                        lineHeight: "38px", /* 131.034% */
+                                        lineHeight: "38px", 
                                     },
                                     '& .MuiInputLabel-root': {
                                         paddingLeft: "10px",
@@ -89,11 +89,11 @@ const Events2: React.FC = () => {
                                         fontSize: "29px",
                                         fontStyle: "normal",
                                         fontWeight: "400",
-                                        lineHeight: "38px", /* 131.034% */
+                                        lineHeight: "38px",
                                     },
                                     '& .MuiInputBase-input': {
-                                        color: 'purple', // Change this to your desired font color
-                                        fontSize: '30px', // Change this to your desired font size
+                                        color: 'purple', 
+                                        fontSize: '30px', 
                                     },
                                 }}
                                 label="Correo electrónico"
@@ -106,7 +106,7 @@ const Events2: React.FC = () => {
                                 sx={{
                                     width: "100%",
                                     '& .MuiInputBase-root': {
-                                        height: '50px', // Adjust this value to your desired height
+                                        height: '50px', 
                                     },
                                     '& .MuiInput-underline:before': {
                                         borderColor: "#AD00FF",
@@ -122,7 +122,7 @@ const Events2: React.FC = () => {
                                         fontSize: "29px",
                                         fontStyle: "normal",
                                         fontWeight: "400",
-                                        lineHeight: "38px", /* 131.034% */
+                                        lineHeight: "38px",
                                     },
                                     '& .MuiInputLabel-root': {
                                         paddingLeft: "10px",
@@ -131,11 +131,11 @@ const Events2: React.FC = () => {
                                         fontSize: "29px",
                                         fontStyle: "normal",
                                         fontWeight: "400",
-                                        lineHeight: "38px", /* 131.034% */
+                                        lineHeight: "38px",
                                     },
                                     '& .MuiInputBase-input': {
-                                        color: 'purple', // Change this to your desired font color
-                                        fontSize: '30px', // Change this to your desired font size
+                                        color: 'purple', 
+                                        fontSize: '30px', 
                                     },
                                 }}
                                 label="Contraseña"

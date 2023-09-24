@@ -133,10 +133,10 @@ const NavComponent: React.FC<IProps> = ({backColor}) =>{
                     }
                     </div>
                     <div className={styles.menu5} onClick={gotoContact}>
-                    CONTACTO
+                        CONTACTO
                     </div>
                     <div className={styles.menu6}>
-                    ES/EN
+                        ES/EN
                     </div>
                 </div>}
             </div>

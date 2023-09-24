@@ -21,47 +21,47 @@ const Contact: React.FC = () => {
                                     label="Nombre"
                                     sx={{
                                         width: "100%",
-                                        borderColor: "white", // Change the width as needed
+                                        borderColor: "white", 
                                         "& .MuiOutlinedInput-root": {
-                                             borderColor: "white", // Change the border color
-                                             borderRadius: "25px", // Change the border radius
+                                             borderColor: "white", 
+                                             borderRadius: "25px",
                                         "&:hover fieldset": {
-                                            borderColor: "white", // Change the hover border color
+                                            borderColor: "white", 
                                         },
                                         "&.Mui-focused fieldset": {
-                                            borderColor: "white", // Change the focused border color
+                                            borderColor: "white", 
                                         },
                                         "& fieldset": {
-                                            borderColor: "white", // Change the default border color here
+                                            borderColor: "white", 
                                           },
                                         },
                                         "& .MuiInputLabel-root": {
-                                            color: "white", // Change the label color
+                                            color: "white", 
                                             fontFamily: "Abel",
                                             fontSize: "29px",
                                             fontStyle: "normal",
                                             fontWeight: "400",
-                                            lineHeight: "38px", /* 131.034% */
+                                            lineHeight: "38px", 
                                         },
                                         "&.Mui-focused .MuiInputLabel-root": {
-                                            color: "white", // Change the focused label color
+                                            color: "white", 
                                             borderWidth: "2px",
                                         },
                                         '& .MuiInputLabel-root.Mui-focused': {
-                                            color: "white", // Change the label color
+                                            color: "white", 
                                             fontFamily: "Abel",
                                             fontSize: "20px",
                                             fontStyle: "normal",
                                             fontWeight: "400",
-                                            lineHeight: "38px", /* 131.034% */
+                                            lineHeight: "38px", 
                                         },
                                         '& .MuiInputBase-input': {
-                                            color: "white", // Change the label color
+                                            color: "white", 
                                             fontFamily: "Abel",
                                             fontSize: "29px",
                                             fontStyle: "normal",
                                             fontWeight: "400",
-                                            lineHeight: "38px", /* 131.034% */
+                                            lineHeight: "38px", 
                                         },
                                         
                                     }}
@@ -74,47 +74,47 @@ const Contact: React.FC = () => {
                                     label="Email"
                                     sx={{
                                         width: "100%",
-                                        borderColor: "white", // Change the width as needed
+                                        borderColor: "white", 
                                         "& .MuiOutlinedInput-root": {
-                                             borderColor: "white", // Change the border color
-                                             borderRadius: "25px", // Change the border radius
+                                             borderColor: "white", 
+                                             borderRadius: "25px", 
                                         "&:hover fieldset": {
-                                            borderColor: "white", // Change the hover border color
+                                            borderColor: "white", 
                                         },
                                         "&.Mui-focused fieldset": {
-                                            borderColor: "white", // Change the focused border color
+                                            borderColor: "white",
                                         },
                                         "& fieldset": {
-                                            borderColor: "white", // Change the default border color here
+                                            borderColor: "white", 
                                           },
                                         },
                                         "& .MuiInputLabel-root": {
-                                            color: "white", // Change the label color
+                                            color: "white", 
                                             fontFamily: "Abel",
                                             fontSize: "29px",
                                             fontStyle: "normal",
                                             fontWeight: "400",
-                                            lineHeight: "38px", /* 131.034% */
+                                            lineHeight: "38px", 
                                         },
                                         "&.Mui-focused .MuiInputLabel-root": {
-                                            color: "white", // Change the focused label color
+                                            color: "white", 
                                             borderWidth: "2px",
                                         },
                                         '& .MuiInputLabel-root.Mui-focused': {
-                                            color: "white", // Change the label color
+                                            color: "white", 
                                             fontFamily: "Abel",
                                             fontSize: "20px",
                                             fontStyle: "normal",
                                             fontWeight: "400",
-                                            lineHeight: "38px", /* 131.034% */
+                                            lineHeight: "38px",
                                         },
                                         '& .MuiInputBase-input': {
-                                            color: "white", // Change the label color
+                                            color: "white", 
                                             fontFamily: "Abel",
                                             fontSize: "29px",
                                             fontStyle: "normal",
                                             fontWeight: "400",
-                                            lineHeight: "38px", /* 131.034% */
+                                            lineHeight: "38px", 
                                         },
                                         
                                     }}
@@ -129,47 +129,47 @@ const Contact: React.FC = () => {
                                     rows={3}
                                     sx={{
                                         width: "100%",
-                                        borderColor: "white", // Change the width as needed
+                                        borderColor: "white",
                                         "& .MuiOutlinedInput-root": {
-                                             borderColor: "white", // Change the border color
-                                             borderRadius: "40px", // Change the border radius
+                                             borderColor: "white",
+                                             borderRadius: "40px",
                                         "&:hover fieldset": {
-                                            borderColor: "white", // Change the hover border color
+                                            borderColor: "white", 
                                         },
                                         "&.Mui-focused fieldset": {
-                                            borderColor: "white", // Change the focused border color
+                                            borderColor: "white", 
                                         },
                                         "& fieldset": {
-                                            borderColor: "white", // Change the default border color here
+                                            borderColor: "white", 
                                           },
                                         },
                                         "& .MuiInputLabel-root": {
-                                            color: "white", // Change the label color
+                                            color: "white", 
                                             fontFamily: "Abel",
                                             fontSize: "29px",
                                             fontStyle: "normal",
                                             fontWeight: "400",
-                                            lineHeight: "38px", /* 131.034% */
+                                            lineHeight: "38px", 
                                         },
                                         "&.Mui-focused .MuiInputLabel-root": {
-                                            color: "white", // Change the focused label color
+                                            color: "white", 
                                             borderWidth: "2px",
                                         },
                                         '& .MuiInputLabel-root.Mui-focused': {
-                                            color: "white", // Change the label color
+                                            color: "white",
                                             fontFamily: "Abel",
                                             fontSize: "20px",
                                             fontStyle: "normal",
                                             fontWeight: "400",
-                                            lineHeight: "38px", /* 131.034% */
+                                            lineHeight: "38px", 
                                         },
                                         '& .MuiInputBase-input': {
-                                            color: "white", // Change the label color
+                                            color: "white", 
                                             fontFamily: "Abel",
                                             fontSize: "29px",
                                             fontStyle: "normal",
                                             fontWeight: "400",
-                                            lineHeight: "38px", /* 131.034% */
+                                            lineHeight: "38px", 
                                         },
                                         
                                     }}
